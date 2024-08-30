@@ -1,7 +1,6 @@
 # Start Lab
 
 ## Pre-Requisites
-- You should have already read the Student Guide's GitPod related pages. If you have not, please read the student guide before working on any labs.
 - You are expected to review the `Entities of Java` written lecture prior to working on this lab. If you are not familiar with the concepts being explored in the lab, please make sure to review the study material first.
 
 ## Description
