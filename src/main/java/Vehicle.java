@@ -1,7 +1,5 @@
-/*
- * You do not need to manipulate anything in this class. 
- * Please analyze this code and answer the questions in Questions.java
- */
+
+// There is no need to edit this file.
 
 public class Vehicle {
     int currentSpeed;
