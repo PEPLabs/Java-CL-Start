@@ -1,16 +1,27 @@
-# Lab README
-Welcome to your first lab. This first exercise is designed to teach you the basic workflow of updating lab content, running tests, and submitting your coding activities. Note that all coding activities (coding labs, coding challenges, projects), will use a similar workflow of maniuplating code files, testing the code, committing.
+# Start Lab
 
-## Java code
-If you look within the src/main/java folder, you will find two Java classes, Vehicle.java and Questions.java. The 'Questions.java' file contains code comments with instructions. Please make sure to read these code comments carefully and update the return value of the provided methods accordingly. Note, you are expected to review the content in the program prior to working on these labs. If you are not familiar with the concepts being explored in the lab, please make sure to review the study material first. After making changes to your assignments you are expected to run the tests.
+## Pre-Requisites
+- You are expected to review the `Entities of Java` written lecture prior to working on this lab. If you are not familiar with the concepts being explored in the lab, please make sure to review the study material first.
 
-## Test cases
-If you look within the src/test/java folder, you will find the Java class 'QuestionsTest.java'. The 'src/test/java' folder will contain your test files. Even if you have prior experience with Java, the concept of testing and TDD (test-driven-development) may be unfamiliar to you. Test cases will be instrumental in completing labs. Test cases are essentially scenarios built that ensure that code in a class such as the QuestionsTest.java. The methods in this class function as a way to check the expected output of code to what is actually output from the current structure of the code. You should never modify the test cases in the labs, as this is likely to break the lab entirely. Every lab has been thoroughly tested to not require any modifications to the tests.
+## Description
+Welcome to your first lab! This first exercise is designed to teach you the basic workflow of completing coding assignments.
 
-## Maven
-You will also find that there is a file named pom.xml. This is a build file which allows the project to leverage open-source tools, such as the tools used to write test cases, inside of the project. The program used to do this is called Maven. You should never modify this file.
+## Completing the Lab
+You will be editing the file `Questions.java`. You will also need to review, but not edit, the `Vehicle.java` file. Both files can be found under the `src/main/java` package. Review the file's code and code comments for further instructions.
 
-## Labs
-All future labs will involve modifying code in src/main/java such that all the test cases in src/test/java pass. No modifications need to be made here as the code has been written to pass all test cases from the start. You should, however, still run the test cases in GuideTest to familiarize yourself with the process of testing your code. You can run tests generally by clicking the 'run' button (usually drawn like a triangular 'play' button) inside a file containing test cases.
+Tasks to complete within the `Questions.java` file:
+- [ ] Revise the return statement of the method named `question1`
+- [ ] Revise the return statement of the method named `question2`
+- [ ] Revise the return statement of the method named `question3`
 
-### There is no need to change anything in this lab. The lab following this one should be rather simple, it will just involve modifying a bit of text in a method. Proceed when you feel ready!
+## Running Tests
+If you look within the `src/test/java` folder, you will find the Java class `QuestionsTest.java`. The `src/test/java` folder will contain your test files.  Test cases will be instrumental in completing labs. The methods in this class function as a way to check the expected output of code to what is actually output from the current structure of the code. 
+- You cannot edit these files, but they are there for you to optionally review.
+
+To run the tests, click on the Testing tab (test beaker icon on the left-hand side) and run the test cases by using the "Run Test" button (play icon). Please ensure that you do not already have the program running.
+
+You can optionally run the program for manual testing by switching to the file named `Main.java` under the `src/main/java` package and clicking the "Run Java" button (play icon) on the top-right of VSCode:
+
+![manual testing example](/images/manual-testing.png)
+
+Note: To see the above image(s), please open this file in Preview mode by using the `Ctrl + Shift + V` shortcut (`Command + Shift + V` on Mac)

@@ -13,7 +13,7 @@ public class QuestionsTest {
 
     @Test
     public void testQuestion2() {
-        int expectedResult = (int) Math.pow(2, 4) - 2;
+        int expectedResult = (int) Math.pow(2, 4) - 4;
         int actualResult = q.question2();
         Assert.assertEquals(expectedResult, actualResult);
     }
