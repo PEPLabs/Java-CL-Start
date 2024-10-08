@@ -1,5 +1,9 @@
+/* 
+This file is optional to edit and can be used for manual testing. 
 
-// There is no need to edit this file.
+Please be aware that manual testing does not affect the completion of your lab.
+To ensure your lab is complete, you are required to run and pass the tests in the Testing tab.
+*/
 
 public class Main {
     /**
